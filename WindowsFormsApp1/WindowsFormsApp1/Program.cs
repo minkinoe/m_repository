@@ -12,11 +12,19 @@ namespace WindowsFormsApp1
         /// 应用程序的主入口点。
         /// </summary>
         [STAThread]
+        
         static void Main()
         {
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new sign());
+            sign s = new sign();
+            s.ShowDialog(); 
+           if(s.DialogResult==DialogResult.OK)
+            {
+                Application.Run(new main());
+            }
+            
         }
     }
 }

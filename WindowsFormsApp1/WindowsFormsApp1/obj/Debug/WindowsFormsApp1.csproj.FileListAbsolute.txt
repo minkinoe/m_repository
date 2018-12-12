@@ -1,0 +1,12 @@
+C:\医院预约管理系统\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\医院预约管理系统\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\医院预约管理系统\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\医院预约管理系统\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\医院预约管理系统\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\医院预约管理系统\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.sign.resources
+C:\医院预约管理系统\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\医院预约管理系统\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\医院预约管理系统\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\医院预约管理系统\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\医院预约管理系统\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.main.resources
+C:\医院预约管理系统\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Zhuce.resources
