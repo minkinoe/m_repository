@@ -16,5 +16,12 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        
     }
 }
