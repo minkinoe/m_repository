@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class main : Form
     {
-        string constr = @"server=.;database=Hostital1;Integrated Security=True";
+        string constr = @"Data Source =.\SQLEXPRESS; Initial Catalog = Hostital1; Integrated Security = True";
         string id= ID.getid();      
         public main()
         {
@@ -41,7 +41,7 @@ namespace WindowsFormsApp1
                     if (dt3.Rows[i][0].ToString().Trim().Equals(id))
                     {
                         button1.Visible = true;
-                        button2.Visible = true;
+                        button2.Visible = false;
                         button3.Visible = true;
                         button4.Visible = true;
                         panduan = true;
@@ -52,7 +52,7 @@ namespace WindowsFormsApp1
                 if (panduan == false)
                 {
                     button1.Visible = true;
-                    button2.Visible = true;
+                    button2.Visible = false;
                     button3.Visible = false;
                     button4.Visible = false;
                 }
@@ -73,6 +73,12 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.ShowDialog();
         }
     }
 }

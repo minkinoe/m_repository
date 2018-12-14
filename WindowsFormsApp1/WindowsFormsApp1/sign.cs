@@ -15,7 +15,7 @@ namespace WindowsFormsApp1
     public partial class sign : Form
     {       
         string zhanghao, mima;
-        string constr = @"server=.;database=Hostital1;Integrated Security=True";
+        string constr = @"Data Source =.\SQLEXPRESS; Initial Catalog = Hostital1; Integrated Security = True";
         public sign()
         {
             InitializeComponent();

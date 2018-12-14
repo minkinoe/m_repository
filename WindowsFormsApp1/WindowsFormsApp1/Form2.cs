@@ -19,6 +19,7 @@ namespace WindowsFormsApp1
         public Form2()
         {
             InitializeComponent();
+            Id = ID.getid();
         }
 
         SqlConnection cnt = new SqlConnection();
@@ -50,7 +51,7 @@ namespace WindowsFormsApp1
             listBox1.BeginUpdate();
             for(int i=0;i<dt.Rows.Count;i++)
             {
-                listBox1.Items.Add(dt.Rows[i][0].ToString()+ dt.Rows[i][1].ToString() + dt.Rows[i][2].ToString());
+                listBox1.Items.Add(dt.Rows[i][0].ToString()+ dt.Rows[i][1].ToString() + dt.Rows[i][2].ToString() + changer((bool)dt.Rows[i][3]));
             }
             listBox1.EndUpdate();
         }
@@ -129,7 +130,7 @@ namespace WindowsFormsApp1
             listBox1.BeginUpdate();
             for (int i = 0; i < dt.Rows.Count; i++)
             {
-                listBox1.Items.Add(dt.Rows[i][0].ToString() + dt.Rows[i][1].ToString() + dt.Rows[i][2].ToString());
+                listBox1.Items.Add(dt.Rows[i][0].ToString() + dt.Rows[i][1].ToString() + dt.Rows[i][2].ToString()+changer((bool)dt.Rows[i][3]));
             }
             listBox1.EndUpdate();
         }
@@ -143,6 +144,13 @@ namespace WindowsFormsApp1
                     listBox1.SelectedIndex = i;
                 }
             }
+        }
+        string changer(bool b)
+        {
+            if (b)
+                return "下午";
+            else
+                return "上午";
         }
     }
 }
