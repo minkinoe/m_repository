@@ -10,3 +10,4 @@ D:\MY_FILE\医院预约\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsForms
 D:\MY_FILE\医院预约\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 D:\MY_FILE\医院预约\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Zhuce.resources
 D:\MY_FILE\医院预约\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.main.resources
+D:\MY_FILE\医院预约\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
