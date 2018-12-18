@@ -68,6 +68,8 @@ namespace WindowsFormsApp1
                 cmd.Dispose();
                 return;
             }
+            SqlCommand com1 = new SqlCommand();
+            com1.Connection = cnt;
             for (int i = 0; i < listBox1.SelectedItems.Count; i++)
             {
                 if (canresign((DateTime)dt.Rows[listBox1.SelectedIndices[i]][2]))
@@ -77,13 +79,17 @@ namespace WindowsFormsApp1
                     cmd.Parameters.AddWithValue("@dno", dt.Rows[listBox1.SelectedIndices[i]][1]);
                     cmd.Parameters.AddWithValue("@ytime", dt.Rows[listBox1.SelectedIndices[i]][2]);
                     cmd.Parameters.AddWithValue("@fg", dt.Rows[listBox1.SelectedIndices[i]][3]);
+                    com1.CommandText += "update [Hostital1].[dbo].[Hyc] set keyuyueshu=keyuyueshu+1 where Dno=@dno and Mtime=@ytime and flag=@fg";
+                    com1.Parameters.AddWithValue("@dno", dt.Rows[listBox1.SelectedIndices[i]][1]);
+                    com1.Parameters.AddWithValue("@ytime", dt.Rows[listBox1.SelectedIndices[i]][2]);
+                    com1.Parameters.AddWithValue("@fg", dt.Rows[listBox1.SelectedIndices[i]][3]);
                 }
             }
             try
             {
                 cnt.Open();
                 cmd.ExecuteNonQuery();
-               
+                com1.ExecuteNonQuery();
             }
             catch(Exception ex)
             {
@@ -140,16 +146,6 @@ namespace WindowsFormsApp1
             dt.Dispose();
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-            if (radioButton1.Checked)
-            {
-                for (int i = 0; i < listBox1.Items.Count; i++)
-                {
-                    listBox1.SelectedIndex = i;
-                }
-            }
-        }
         string changer(bool b)
         {
             if (b)

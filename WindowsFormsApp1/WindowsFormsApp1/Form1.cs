@@ -196,7 +196,7 @@ namespace WindowsFormsApp1
                 string sqlstr = "insert into Yc([ID],[Dno],[Ytime],[flag],[xuhao],[Tel])values('"+patientid+"','"+doctorid+"','"+date1+"','"+ap+ "','"+xvhao+"','"+dt.Rows[0][2].ToString()+"')";         
                 if (OperateDatabase.AddData(sqlstr, constr)==true)
                 {
-                     OperateDatabase.UpdateData("update Hyc set Kyuyueshu='" + (Convert.ToInt32(dt1.Rows[0][5]) - 1).ToString() + "' where Dno='" + doctorid + "'and Mtime='" + date1 + "'and flag='" + ap + "'", constr);
+                     OperateDatabase.UpdateData("update Hyc set Keyuyueshu='" + (Convert.ToInt32(dt1.Rows[0][5]) - 1).ToString() + "' where Dno='" + doctorid + "'and Mtime='" + date1 + "'and flag='" + ap + "'", constr);
                      label4.Text = "预约成功";
                      MessageBox.Show("预约成功");
                     
