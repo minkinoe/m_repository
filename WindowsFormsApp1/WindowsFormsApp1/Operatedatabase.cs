@@ -70,7 +70,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception ex)
             {
-                MessageBox.Show("删除数据异常" + ex.Message);
+                MessageBox.Show("删除数据异常！！！" + ex.Message);
                 return false;
             }
         }
@@ -100,7 +100,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception ex)
             {
-                MessageBox.Show("删除数据异常" + ex.Message);
+                MessageBox.Show("删除数据异常]]]]]" + ex.Message);
                 return false;
             }
         }

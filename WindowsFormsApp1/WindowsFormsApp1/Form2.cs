@@ -83,6 +83,7 @@ namespace WindowsFormsApp1
                 cnt.Open();
                 cmd.ExecuteNonQuery();
                 MessageBox.Show("成功取消");
+                cnt.Close();
                 refurbish();
             }
             catch(Exception ex)

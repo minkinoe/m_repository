@@ -11,3 +11,16 @@ D:\MY_FILE\医院预约\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsForms
 D:\MY_FILE\医院预约\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Zhuce.resources
 D:\MY_FILE\医院预约\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.main.resources
 D:\MY_FILE\医院预约\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form3.resources
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Zhuce.resources
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.main.resources
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.sign.resources
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\MY_FILE\医院终极\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
