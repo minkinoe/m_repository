@@ -47,6 +47,7 @@ namespace WindowsFormsApp1
                 da.Dispose();
                 cmd.Dispose();
                 cnt.Close();
+                dt.Dispose();
             }
             listBox1.BeginUpdate();
             for(int i=0;i<dt.Rows.Count;i++)
@@ -82,9 +83,7 @@ namespace WindowsFormsApp1
             {
                 cnt.Open();
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("成功取消");
-                cnt.Close();
-                refurbish();
+               
             }
             catch(Exception ex)
             {
@@ -94,7 +93,9 @@ namespace WindowsFormsApp1
             {
                 cmd.Dispose();
                 cnt.Close();
+                MessageBox.Show("成功取消");
             }
+            refurbish();
         }
 
         bool canresign(DateTime dt)
@@ -108,6 +109,8 @@ namespace WindowsFormsApp1
 
         void refurbish()
         {
+            SqlCommand cmd = new SqlCommand();
+            dt = new DataTable();
             listBox1.Items.Clear();
             cmd.Connection = cnt;
             cmd.CommandText = "select * from [Hostital1].[dbo].[Yc] where ID=@id";
@@ -134,6 +137,7 @@ namespace WindowsFormsApp1
                 listBox1.Items.Add(dt.Rows[i][0].ToString() + dt.Rows[i][1].ToString() + dt.Rows[i][2].ToString()+changer((bool)dt.Rows[i][3]));
             }
             listBox1.EndUpdate();
+            dt.Dispose();
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
